@@ -30,7 +30,6 @@ public class FastDFSUtil {
       e.printStackTrace();
     }
   }
-
   /**
    * 上传文件
    * @param file
@@ -45,7 +44,6 @@ public class FastDFSUtil {
     //文件拓展名oldName.substring(oldName.lastIndexOf(".")+1)
     return client1.upload_file1(file.getBytes(),oldName.substring(oldName.lastIndexOf(".")+1),null);
   }
-
   /**
    *获取访问文件的令牌
    * @throws UnsupportedEncodingException
